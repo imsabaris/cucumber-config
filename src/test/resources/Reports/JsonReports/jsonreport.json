@@ -1,0 +1,423 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12577376800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is in login page",
+            "match": {
+              "location": "StepDefinitionDataTable.user_is_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3388802300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user change to English language",
+            "match": {
+              "location": "StepDefinitionDataTable.user_change_to_English_language()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-26T08:00:15.150Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7457011800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.broswer()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "To validate login using invalid 1D map credentials",
+        "description": "",
+        "id": "to-validate-the-facebook-login-functionality;to-validate-login-using-invalid-1d-map-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 108400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 408613600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enter username and password",
+            "match": {
+              "location": "StepDefinitionDataTable.user_enter_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "Greens@123",
+                  "greens"
+                ]
+              },
+              {
+                "cells": [
+                  "java@123",
+                  "java"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 148768600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click the login button",
+            "match": {
+              "location": "StepDefinitionDataTable.user_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2346877400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user is in reenter login page",
+            "match": {
+              "location": "StepDefinitionDataTable.user_is_in_reenter_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11501835300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is in login page",
+            "match": {
+              "location": "StepDefinitionDataTable.user_is_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3678499900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user change to English language",
+            "match": {
+              "location": "StepDefinitionDataTable.user_change_to_English_language()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-26T08:00:41.894Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4575129400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.broswer()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "To validate without passing credentials",
+        "description": "",
+        "id": "to-validate-the-facebook-login-functionality;to-validate-without-passing-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 1202442500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 112110800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user clicks login without data",
+            "match": {
+              "location": "StepDefinitionDataTable.user_clicks_login_without_data()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1492400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user reenter to login page",
+            "match": {
+              "location": "StepDefinitionDataTable.user_reenter_to_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the Facebook login functionality",
+    "description": "",
+    "id": "to-validate-the-facebook-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/datatable.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-26T08:01:02.976Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4312956300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.broswer()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "To validate the invalid username and invalid password",
+        "description": "",
+        "id": "to-validate-flipkart-login-functionality;to-validate-the-invalid-username-and-invalid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 1533462000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15200737900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user has to be in the login page",
+            "match": {
+              "location": "StepDefinitionFlipkart.user_has_to_be_in_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 356953900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User has to close the window",
+            "match": {
+              "location": "StepDefinitionFlipkart.user_has_to_close_the_window()"
+            },
+            "keyword": "But "
+          },
+          {
+            "result": {
+              "duration": 35322292100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user has to give username and password",
+            "match": {
+              "location": "StepDefinitionFlipkart.user_has_to_give_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 571676600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user has to click the login button",
+            "match": {
+              "location": "StepDefinitionFlipkart.user_has_to_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1269000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user has to reenter to login page",
+            "match": {
+              "location": "StepDefinitionFlipkart.user_has_to_reenter_to_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "To validate Flipkart Login Functionality",
+    "description": "",
+    "id": "to-validate-flipkart-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/flipkartlogin.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-26T08:02:00.297Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8091904400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.broswer()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "To validate the login page without entering credentials",
+        "description": "",
+        "id": "to-validate-the-login-functionality-in-facebook;to-validate-the-login-page-without-entering-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 60300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10735489800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user clicks login button",
+            "match": {
+              "location": "StepDefinition.user_clicks_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 990474300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user will be in invalid credential page",
+            "match": {
+              "location": "StepDefinition.user_will_be_in_invalid_credential_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the Login functionality in facebook",
+    "description": "",
+    "id": "to-validate-the-login-functionality-in-facebook",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/login.feature",
+    "tags": []
+  }
+]

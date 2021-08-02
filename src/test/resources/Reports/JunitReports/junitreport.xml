@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="124.90208">
+<testcase classname="To validate the Facebook login functionality" name="To validate login using invalid 1D map credentials" time="26.667052">
+<system-out><![CDATA[Given user is in login page.................................................passed
+And user change to English language.........................................passed
+When user enter username and password.......................................passed
+And user click the login button.............................................passed
+Then user is in reenter login page..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the Facebook login functionality" name="To validate without passing credentials" time="21.078997">
+<system-out><![CDATA[Given user is in login page.................................................passed
+And user change to English language.........................................passed
+When user clicks login without data.........................................passed
+Then user reenter to login page.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate Flipkart Login Functionality" name="To validate the invalid username and invalid password" time="57.327536">
+<system-out><![CDATA[Given user has to be in the login page......................................passed
+But User has to close the window............................................passed
+When user has to give username and password.................................passed
+And user has to click the login button......................................passed
+Then user has to reenter to login page......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the Login functionality in facebook" name="To validate the login page without entering credentials" time="19.828495">
+<system-out><![CDATA[When user clicks login button...............................................passed
+Then user will be in invalid credential page................................passed
+]]></system-out>
+</testcase>
+</testsuite>
